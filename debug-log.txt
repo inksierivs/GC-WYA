@@ -1,0 +1,11 @@
+Array
+(
+    [idToken] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjcxMTE1MjM1YTZjNjE0NTRlZmRlZGM0NWE3N2U0MzUxMzY3ZWViZTAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vdGVzdGluZy1jZWFhZCIsImF1ZCI6InRlc3RpbmctY2VhYWQiLCJhdXRoX3RpbWUiOjE3NDQxMjI5NzgsInVzZXJfaWQiOiJYSlQzU045YkxMV1dIcnVGa1oyaWFpMkphbmwxIiwic3ViIjoiWEpUM1NOOWJMTFdXSHJ1RmtaMmlhaTJKYW5sMSIsImlhdCI6MTc0NDEyMjk3OCwiZXhwIjoxNzQ0MTI2NTc4LCJlbWFpbCI6InRhbWFub2xpYW5uZWRhbEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsidGFtYW5vbGlhbm5lZGFsQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.l6bGQFHFQr9uKTRiYpLH-AQapGuUCdvVmZ_AK4NCOVA5jRZAFcPgWcnJWNG9qrA5m-zXgfVSs0jwWXgo-SUc3iSP1VPgsknKoziTZw-Mk9yw-TZgZtDNRJT-Qi_r3pk9w2-vRvb2BLwudw2EtnS87UFVDZpjctnkIn-UoqMyzHG5A_Eipr9l2pquRKg_gB-R2mlIFQAtpjMku_F9PtG0jZOKd5SbyfaDycygDj8eKK85FhCZgMGvIVwQ1zMDs7tXP79smZWQmuwmnzfwxYUn8wwyTkz5Y1fvvBBur9dENN0qYAxIxkhD7CUz60EuDvd2wckOuRSRleY1GgbsGPRdSA
+    [firstName] => Lianne
+    [lastName] => Tamaño
+    [email] => tamanoliannedal@gmail.com
+    [id] => 15
+    [number] => 0923156688
+    [yearLevel] => 1
+    [block] => a
+)

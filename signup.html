@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WYA Signup</title>
+  <link rel="icon" type="image/png" href="/pics/WYA-logo.png" />
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+  <img src="pics/WYA-logo.png" alt="WYA Logo" class="logo" />
+
+  <div class="login-container">
+    <h2>Sign Up</h2>
+
+    <label for="email">Domain Email</label>
+    <input type="text" id="email" placeholder="Enter your email" />
+
+    <label for="id">Student/Teacher ID Number</label>
+    <input type="number" id="id" placeholder="Enter your ID" />
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="Enter your first name" />
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" placeholder="Enter your last name" />
+
+    <label for="number">Contact number</label>
+    <input type="number" id="number" placeholder="Enter your contact number" />
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter your password" />
+
+    <label for="password-confirm">Confirm Password</label>
+    <input type="password" id="password-confirm" placeholder="Confirm your password" />
+
+    <label for="year-level">Year Level</label>
+    <select id="year-level">
+      <option value="1">Year 1</option>
+      <option value="2">Year 2</option>
+      <option value="3">Year 3</option>
+      <option value="4">Year 4</option>
+    </select>
+
+    <label for="block">Block</label>
+    <select id="block">
+      <option value="a">Block A</option>
+      <option value="b">Block B</option>
+      <option value="c">Block C</option>
+      <option value="d">Block D</option>
+      <option value="e">Block E</option>
+    </select>
+
+    <!-- Add the id attribute here -->
+    <button id="signup-btn">Create new account</button>
+  </div>
+
+  <script type="module" src="js/signup.js"></script>
+</body>
+</html>
