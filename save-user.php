@@ -34,7 +34,7 @@ try {
     $lname = $input['lastName'] ?? '';
     
 
-    $factory = (new Factory)->withServiceAccount('testing-ceaad-firebase-adminsdk-fbsvc-2bd6389010.json');
+    $factory = (new Factory)->withServiceAccount('testing-ceaad-firebase-adminsdk-fbsvc-8869da00e1.json');
     $auth = $factory->createAuth();
     $firestore = $factory->createFirestore();
     $db = $firestore->database();
