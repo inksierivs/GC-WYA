@@ -43,6 +43,29 @@ document.getElementById('login-btn').addEventListener('click', async (e) => {
         }
 
     } catch (err) {
-        alert('Error: ' + err.message);
+        let message = "An error occurred while logging in.";
+    
+        if (err.code) {
+            switch (err.code) {
+                case "auth/invalid-email":
+                    message = "Please enter a valid email address.";
+                    break;
+                case "auth/user-disabled":
+                    message = "This user account has been disabled.";
+                    break;
+                case "auth/user-not-found":
+                    message = "No account found with this email.";
+                    break;
+                case "auth/wrong-password":
+                    message = "Incorrect password.";
+                    break;
+                default:
+                    message = err.message;
+                    break;
+            }
+        }
+    
+        alert("Login failed: " + message);
     }
+    
 });

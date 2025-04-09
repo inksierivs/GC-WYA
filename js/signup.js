@@ -66,7 +66,25 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Error: " + data.error);
       }
     } catch (err) {
-      alert("Signup error: " + err.message);
+      let message = "An error occurred during signup.";
+    
+      if (err.code) {
+        switch (err.code) {
+          case "auth/email-already-in-use":
+            message = "This email is already registered.";
+            break;
+          case "auth/invalid-email":
+            message = "Invalid email format.";
+            break;
+          case "auth/weak-password":
+            message = "Password is too weak (minimum 6 characters).";
+            break;
+          default:
+            message = err.message;
+            break;
+        }
     }
-  });
-});
+      alert("Signup failed: " + message);
+    }
+  })
+})
